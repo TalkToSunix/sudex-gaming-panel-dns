@@ -1,3 +1,15 @@
+<div align="center">
+
+![Sudex — DNS infrastructure, refined.](assets/hero.svg)
+
+**راه‌اندازی خودکار · تنظیم شبکه · کنترل دسترسی · بازیابی**
+
+[شروع سریع](#شروع) · [قابلیت‌ها](#قابلیتها) · [تلگرام سازنده](https://t.me/talktosunix)
+
+</div>
+
+---
+
 # Sudex
 
 **ابزار سبک و یکپارچهٔ بهینه‌سازی سرورهای DNS**
@@ -26,7 +38,7 @@ curl -fL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/TalkToSuni
 wget https://raw.githubusercontent.com/TalkToSunix/sudex/main/install.sh -O sudex.sh && sudo bash sudex.sh
 ```
 
-## نصب چه چیزهایی انجام می‌دهد؟
+## قابلیت‌ها
 
 | بخش | عملکرد |
 | --- | --- |
@@ -113,3 +125,22 @@ This is an experimental first release. Full Ubuntu/VPS integration and reboot te
 ## License
 
 MIT. Independent community project; not an official AdGuard product.
+
+
+---
+
+<div align="center">
+
+<img src="assets/logo.svg" width="58" alt="Sudex logo" />
+
+### ایده‌ای از یک دوست، ساخته‌شده با دقت
+
+این پروژه از ایدهٔ دوست خوبم **[@pedramoneshot](https://t.me/pedramoneshot)** شکل گرفته است. 🤝
+
+**ساخت و توسعه: TalkToSunix**
+
+تلگرام من: **[@talktosunix](https://t.me/talktosunix)**
+
+**SUDEX · DNS infrastructure, refined.**
+
+</div>
