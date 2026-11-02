@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+<title id="title">Sudex S monogram</title>
+<defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#a0ffce"/><stop offset="1" stop-color="#32b8c4"/></linearGradient></defs>
+<rect x="8" y="8" width="240" height="240" rx="62" fill="#0c1d27" stroke="#365960" stroke-width="2"/>
+<path d="M177 63H103L74 95L103 126H158L183 157L155 190H79" fill="none" stroke="url(#a)" stroke-width="21" stroke-linejoin="round"/>
+<circle cx="208" cy="48" r="7" fill="#a0ffce"/>
+</svg>
