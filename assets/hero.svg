@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Sudex — DNS infrastructure, refined.</title>
+<desc id="desc">Sudex by TalkToSunix. An animated network diagram connects a custom S monogram to server nodes. Automated setup, network tuning and access control.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#08121d"/><stop offset="1" stop-color="#101d29"/></linearGradient>
+ <linearGradient id="accent" x2="1" y2="1"><stop stop-color="#92ffcc"/><stop offset="1" stop-color="#32b8c4"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c8e9f9" stroke-opacity=".035"/></pattern>
+ <radialGradient id="halo"><stop stop-color="#43e9ad" stop-opacity=".13"/><stop offset="1" stop-color="#43e9ad" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="1198" height="438" rx="24" fill="url(#bg)" stroke="#28404e"/>
+<rect x="2" y="2" width="1196" height="436" rx="23" fill="url(#grid)"/>
+<circle cx="932" cy="194" r="236" fill="url(#halo)"/>
+<path d="M46 1H240" stroke="#8dffcb" stroke-width="2"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <rect x="54" y="42" width="72" height="26" rx="13" fill="#21382f" stroke="#456451"/>
+ <circle cx="68" cy="55" r="3" fill="#9bffcc"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>
+ <text x="80" y="59" font-size="10" font-weight="700" letter-spacing="1.2" fill="#b2f8d1">SUDEX</text>
+ <text x="141" y="59" font-size="10" letter-spacing="2.6" fill="#94a9b8">DNS INFRASTRUCTURE TOOLKIT</text>
+ <text x="51" y="158" font-size="87" font-weight="800" letter-spacing="-3" fill="#edf8f7">sudex<tspan fill="#9bffcc">.</tspan></text>
+ <text x="56" y="205" font-size="28" font-weight="500" letter-spacing="-.5" fill="#d9e8ec">DNS infrastructure, refined.</text>
+ <text x="56" y="241" font-size="15" fill="#8da5b7">One terminal. A more considered server setup.</text>
+ <g font-size="10" letter-spacing="1.5" font-weight="700">
+  <rect x="56" y="276" width="126" height="31" rx="6" fill="#152a34" stroke="#2d4552"/>
+  <text x="72" y="296" fill="#a7c5d5">UBUNTU LINUX</text>
+  <rect x="192" y="276" width="136" height="31" rx="6" fill="#152a34" stroke="#2d4552"/>
+  <text x="208" y="296" fill="#a7c5d5">TERMINAL FIRST</text>
+  <rect x="338" y="276" width="122" height="31" rx="6" fill="#2d291d" stroke="#625039"/>
+  <text x="355" y="296" fill="#e3c187">EARLY ACCESS</text>
+ </g>
+</g>
+<!-- The circuit is intentionally decorative: it represents capabilities, not live telemetry. -->
+<g fill="none" stroke="#395964" stroke-width="1.5">
+ <path id="routeA" d="M744 122H830Q846 122 846 138V174H895"/>
+ <path id="routeB" d="M744 248H830Q846 248 846 232V202H895"/>
+ <path id="routeC" d="M975 188H1044Q1060 188 1060 204V250H1100"/>
+ <circle cx="935" cy="188" r="90" stroke-dasharray="2 10"/>
+</g>
+<g fill="#a1ffcf">
+ <circle r="3"><animateMotion dur="4s" repeatCount="indefinite" path="M744 122H830Q846 122 846 138V174H895"/><animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/></circle>
+ <circle r="3"><animateMotion dur="5s" repeatCount="indefinite" path="M744 248H830Q846 248 846 232V202H895"/><animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/></circle>
+ <circle r="3"><animateMotion dur="4s" repeatCount="indefinite" path="M975 188H1044Q1060 188 1060 204V250H1100"/><animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/></circle>
+</g>
+<g>
+ <rect x="885" y="138" width="100" height="100" rx="25" fill="#112c2c" stroke="#6ed6b3"/>
+ <path d="M956 161H922L909 176L922 190H949L961 204L948 218H914" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linejoin="round" stroke-linecap="square"/>
+ <circle cx="968" cy="155" r="3" fill="#99ffcc"/>
+</g>
+<g fill="#132733" stroke="#3b5967">
+ <rect x="677" y="100" width="68" height="44" rx="9"/>
+ <rect x="677" y="226" width="68" height="44" rx="9"/>
+ <rect x="1087" y="228" width="68" height="44" rx="9"/>
+</g>
+<g stroke="#83b8bf" stroke-width="2"><path d="M691 113h36m-36 8h21m-21 8h36M691 239h36m-36 8h21m-21 8h36M1101 241h36m-36 8h21m-21 8h36"/></g>
+<g fill="#a0ffce"><circle cx="732" cy="121" r="2"/><circle cx="732" cy="247" r="2"/><circle cx="1142" cy="249" r="2"/></g>
+<path d="M56 347H1144" stroke="#2b404e"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="12">
+ <text x="56" y="383" fill="#b5c9d1">01 <tspan dx="9" fill="#7f9baa">AUTOMATED SETUP</tspan></text>
+ <text x="330" y="383" fill="#b5c9d1">02 <tspan dx="9" fill="#7f9baa">NETWORK TUNING</tspan></text>
+ <text x="598" y="383" fill="#b5c9d1">03 <tspan dx="9" fill="#7f9baa">ACCESS CONTROL</tspan></text>
+ <text x="1144" y="383" text-anchor="end" font-size="10" letter-spacing="1.4" fill="#9bffcc">BY TALKTOSUNIX</text>
+</g>
+</svg>
