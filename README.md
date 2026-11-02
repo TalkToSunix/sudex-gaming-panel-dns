@@ -1,8 +1,12 @@
 # Sudex
 
-**نصاب ابزارها و تنظیمات سرور اوبونتو برای AdGuard Home**
+**ابزار سبک و یکپارچهٔ بهینه‌سازی سرورهای DNS**
 
-با اجرای نصاب و انتخاب **Install all**، ابزارهای موردنیاز نصب و تنظیمات میزبان اعمال می‌شوند. این نسخه از اسکریپت آماده‌سازی سرور ساخته شده است؛ **خود AdGuard Home باید از قبل نصب و تنظیم شده باشد.**
+**Sudex**، ساختهٔ [TalkToSunix](https://github.com/TalkToSunix)، ابزاری مستقل برای آماده‌سازی، تنظیم و بهینه‌سازی زیرساخت DNS روی سرورهای اوبونتو است؛ با تمرکز بر عملکرد، پایداری و کنترل دسترسی.
+
+راه‌اندازی خودکار، تنظیم شبکه، مدیریت سرویس، فایروال، پشتیبان‌گیری و بررسی سلامت سرور، همگی از یک محیط ترمینالی در دسترس‌اند. هدف Sudex، ساده‌کردن مدیریت زیرساخت DNS با کمترین پیچیدگی و سربار است.
+
+در نسخهٔ فعلی، Sudex با AdGuard Home نصب و تنظیم‌شده کار می‌کند. برای اجرای عملیات، گزینهٔ **Install all** را انتخاب کنید.
 
 > نسخهٔ آزمایشی 0.1.0 — بررسی‌های محلی انجام شده‌اند؛ نصب کامل روی VPS اوبونتو و آزمون راه‌اندازی مجدد هنوز انجام نشده است. ابتدا روی سرور آزمایشی با دسترسی کنسول ارائه‌دهنده اجرا کنید.
 
@@ -102,7 +106,7 @@ bash checks.sh
 
 ## English
 
-Sudex is a menu-driven Ubuntu host installer for an **existing, configured AdGuard Home**. Select “Install all” to install supporting packages and configure the systemd service, local resolver, supported TCP settings, UFW, updates and time synchronization. Existing AdGuard YAML and credentials are preserved. Only explicit DNS client networks are permitted; an empty list means local DNS only.
+Sudex is an independent, lightweight DNS server optimization toolkit for Ubuntu, created by [TalkToSunix](https://github.com/TalkToSunix). It brings automated setup, network tuning, service management, access control, backups and health checks into one terminal interface, with a focus on performance and stability. The current release integrates with an **existing, configured AdGuard Home**. Select “Install all” to install supporting packages and configure the systemd service, local resolver, supported TCP settings, UFW, updates and time synchronization. Existing AdGuard YAML and credentials are preserved. Only explicit DNS client networks are permitted; an empty list means local DNS only.
 
 This is an experimental first release. Full Ubuntu/VPS integration and reboot testing are still required. Configuration backups and best-effort rollback are included; package installation is not undone. Review the script before running it as root.
 
